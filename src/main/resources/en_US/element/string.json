@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "ArkUI Animation"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "ArkUI Animation"
+    },
+    {
+      "name": "please_click_button",
+      "value": "Click the button"
+    },
+    {
+      "name": "count",
+      "value": "Number"
+    }
+  ]
+}
