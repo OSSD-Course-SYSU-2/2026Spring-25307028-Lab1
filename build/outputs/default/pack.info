@@ -1,0 +1,53 @@
+{
+	"summary": {
+		"app": {
+			"bundleName": "com.example.animation",
+			"bundleType": "app",
+			"version": {
+				"code": 1000000,
+				"name": "1.0.0"
+			}
+		},
+		"modules": [
+			{
+				"mainAbility": "EntryAbility",
+				"deviceType": [
+					"phone",
+					"tablet",
+					"tv",
+					"wearable"
+				],
+				"abilities": [
+					{
+						"name": "EntryAbility",
+						"label": "$string:EntryAbility_label"
+					}
+				],
+				"distro": {
+					"moduleType": "entry",
+					"installationFree": false,
+					"deliveryWithInstall": true,
+					"moduleName": "entry"
+				},
+				"apiVersion": {
+					"compatible": 17,
+					"releaseType": "Release",
+					"target": 22
+				}
+			}
+		]
+	},
+	"packages": [
+		{
+			"deviceType": [
+				"phone",
+				"tablet",
+				"tv",
+				"wearable"
+			],
+			"moduleType": "entry",
+			"deliveryWithInstall": true,
+			"name": "entry-default"
+		}
+	]
+}
